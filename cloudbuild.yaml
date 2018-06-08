@@ -7,5 +7,6 @@ steps:
   env: ['PROJECT_ROOT=hello']
 - name: 'gcr.io/cloud-builders/gsutil'
   args: ['-m', 'cp', 'hello', 'gs://gcb-docs-project-qs/']
+
   
   
